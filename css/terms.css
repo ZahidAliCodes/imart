@@ -1,0 +1,160 @@
+.container-terms {
+    width: 100%;
+    max-width: 1088px;
+    margin: 0 auto;
+}
+.bg-dark {
+    background-color: var(--bg-dark);
+}
+.main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 124px 0;
+}
+.main-heading h1 {
+    color: var(--color-white);
+    text-shadow: 0 4px 4px var(--color-text);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+.contact-box {
+    width: 402px;
+    height: 512px;
+    margin: 0 auto;
+}
+.talk-btn {
+    margin: 100px 0 0 0;
+}
+/* * */
+.imart-card h2 {
+    color: var(--color-text);
+    font-family: var(--font-quicksand);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+.imart-card p {
+    font-family: var(--font-quicksand);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.17px;
+}
+.imart-btn {
+    background: #263238;
+    font-family: var(--font-quicksand);
+    padding: 14px;
+}
+.imart-badge {
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px; /* 115% */
+
+    background: #263238;
+}
+.promo-card-two h2 {
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+}
+.promo-card-two .imart-btn-light {
+    background-color: var(--color-white);
+    font-family: var(--font-poppins);
+    padding: 20px 32px;
+    margin: 0 auto;
+}
+.promo-card-three h2 {
+    font-size: 34px;
+    font-family: var(--font-urbanist);
+}
+.imart-btn-light2 {
+    padding: 20px 30px;
+    font-family: var(--font-urbanist);
+    font-size: 24px;
+    font-weight: 800;
+    background-color: var(--color-white);
+    z-index: 1;
+    position: relative;
+}
+.imart-promo-cards {
+    padding: 148px 0 32px 0;
+}
+/* --- STYLES FOR THE TIMER --- */
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.countdown-timer .time-unit {
+    text-align: center;
+}
+
+.countdown-timer .time-value {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+    line-height: 1;
+}
+
+.countdown-timer .separator {
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    top: -3px; /* Aligns colon nicely */
+}
+
+.countdown-timer .time-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-family: var(--font-quicksand);
+    letter-spacing: 1px;
+}
+/* * */
+.terms-info {
+    padding: 86px 0 140px 0;
+}
+.terms-info p,
+.terms-info ul li,
+.terms-info ol li {
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+}
+.italic {
+    font-style: italic;
+}
+
+.terms-info h3 {
+    color: var(--color-text);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    margin: 16px 0 0 0;
+}
+.italic {
+    margin: 0 0 16px 0;
+}
+.terms-info ol li {
+    list-style-type: lower-alpha;
+}
+.terms-info ul {
+    padding: 4px 48px;
+    list-style-type: disc;
+}
+.terms-info ol {
+    padding-left: 45px;
+}

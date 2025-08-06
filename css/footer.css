@@ -11,9 +11,8 @@
 }
 
 .imart-footer-left p {
-    color: #eee;
+    color: #eeeeee;
     font-size: 25px;
-    font-style: normal;
     font-family: var(--font-urbanist);
     font-weight: 400;
     line-height: normal;
@@ -36,7 +35,6 @@
     color: #253d4e;
     font-size: 20px;
     font-family: var(--font-quicksand);
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     flex: 1;
@@ -46,15 +44,16 @@
 
 .imart-newsletter-box button {
     padding: 15px 20px;
-    background: #fe8d27;
-    color: #fff;
+    background: var(--color-secondary);
+    color: var(--color-white);
     font-family: var(--font-urbanist);
     font-size: 24px;
-    font-style: normal;
     font-weight: 800;
     line-height: 24px; /* 100% */
     border: none;
     border-radius: 10px;
+    transition: background-color 0.3s ease;
+
 }
 
 .imart-footer-center ul {
@@ -66,18 +65,16 @@
 }
 
 .imart-footer-center a {
-    color: #eee;
+    color: #eeeeee;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
 .imart-footer-right p {
-    color: #eee;
+    color: #eeeeee;
     font-family: var(--font-urbanist);
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 23px; /* 115% */
     margin: 60px 0;
@@ -88,8 +85,8 @@
 
 .imart-social-icons a {
     padding: 8px;
-    border-radius: 8px;
-    border: 1px solid #fe8d27;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-secondary);
     display: flex;
     align-items: center;
     justify-content: center;
