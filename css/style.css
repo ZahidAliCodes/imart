@@ -130,7 +130,7 @@ textarea {
     color: var(--color-text);
     font-size: 18px;
     font-weight: 400;
-    line-height: 23px; /* 127.778% */
+    line-height: 23px; 
     padding: 8px 0 0 0;
 }
 .steps-cards-main {
@@ -200,7 +200,7 @@ textarea {
     font-size: 33px;
     font-weight: 700;
     text-align: center;
-    line-height: 48px; /* 145.455% */
+    line-height: 48px; 
     padding: 0 0 72px 0;
 }
 .notes-wrapper {
