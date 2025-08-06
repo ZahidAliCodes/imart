@@ -1,0 +1,112 @@
+.imart-footer {
+    background-color: #1c4507;
+    padding: 80px;
+}
+
+.imart-footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.imart-footer-left p {
+    color: #eee;
+    font-size: 25px;
+    font-style: normal;
+    font-family: var(--font-urbanist);
+    font-weight: 400;
+    line-height: normal;
+}
+.imart-footer-logo {
+    margin-bottom: 10px;
+}
+
+.imart-newsletter-box {
+    display: flex;
+    width: 550px;
+    height: 74px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 15px;
+    background-color: var(--color-white);
+}
+
+.imart-newsletter-box input {
+    color: #253d4e;
+    font-size: 20px;
+    font-family: var(--font-quicksand);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex: 1;
+    outline: none;
+    border: none;
+}
+
+.imart-newsletter-box button {
+    padding: 15px 20px;
+    background: #fe8d27;
+    color: #fff;
+    font-family: var(--font-urbanist);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px; /* 100% */
+    border: none;
+    border-radius: 10px;
+}
+
+.imart-footer-center ul {
+    list-style: none;
+}
+
+.imart-footer-center ul li {
+    margin-bottom: 25px;
+}
+
+.imart-footer-center a {
+    color: #eee;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.imart-footer-right p {
+    color: #eee;
+    font-family: var(--font-urbanist);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 115% */
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imart-social-icons a {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #fe8d27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imart-social-icons {
+    display: flex;
+    gap: 60px;
+}
+.imart-social-icons img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .imart-footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,260 @@
+.dropdown-item-active {
+  background-color: #355823 !important;
+}
+.dropdown-item-active a{
+  color: var(--color-white) !important;
+}
+.bg-dark {
+    background-color: var(--bg-dark);
+  padding: 50px 0;
+}
+.section-money .money-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.money-text h2 {
+  color: #FFF;
+  text-align: center;
+  text-shadow: 0 4px 4px #1C4606;
+  font-size: clamp(32px, 6vw, 100px); 
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+.money-image{
+    width: 55%;
+}
+.money-image img {
+  height: 100%;
+  object-fit: cover;
+    width: 100%;
+}
+.bg-light{
+    padding: 50px 0 75px 0;
+    background-color: var(--bg-light);
+}
+.what-is-mart-main {
+    display: flex
+;
+justify-content: space-between;
+}
+
+.mart-is-rght {
+    display: flex
+;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    width: 80%;
+}
+.mart-is-lft{
+    position: relative;
+}
+.mart-is-lft img{
+    position: absolute;
+    top: -146px;
+}
+.mart-is-rght h1{
+    color: #1C4606;
+text-align: center;
+font-size: 33px;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+}
+.mart-is-rght p{
+    color: #000;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 138.889% */
+}
+.btn-group2{
+    gap: 62px;
+}
+.btn-group a {
+    width: 34%;
+}
+.shopping-section {
+    padding: 76px 0;
+}
+.shopping-section h1{
+    color: #1C4606;
+font-size: 33px;
+font-style: normal;
+font-weight: 700;
+text-decoration-line: underline;
+}
+.shopping-section .subtitle{
+    padding: 29px 0 0 0;
+}
+.steps-cards-main p{
+    font-size: 20px;
+    margin: 17px 0 0 0;
+}
+.step-card img {
+    height: 240px;
+}
+.steps-cards-main h2{
+    color: #1C4606;
+}
+.join-section{
+    background-image: url("../assets/join.png");
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+.join-info h1{
+color: #000;
+font-size: 33px;
+font-weight: 700;
+line-height: normal;
+}
+.benefits-list{
+    margin: 22px 0;
+}
+.benefits-list li {
+ color: #000;
+font-size: 20px;
+font-weight: 400;
+line-height: 44px; /* 220% */
+}
+.join-info a{
+    display: inline-block;
+    border-radius: 100px;
+background: #FE8D27;
+padding: 20px 78px;
+color: #000;
+font-size: 25px;
+font-weight: 700;
+line-height: 24px; /* 96% */
+width: fit-content;
+margin: 0 0 0 96px;
+}
+.require-sec{
+    background-color: #D9D9D9;
+    padding: 78px 0 24px 0;
+}
+.requirement-list {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height:  44px; 
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.req-main {
+    display: flex
+;
+    align-items: center;
+}
+.req-main h1{
+    color: #000;
+font-size: 33px;
+font-weight: 700;
+padding: 0 0 28px 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center a img {
+  height: 244px; 
+}
+.gridiant-hero {
+  background: linear-gradient(180deg, #E0E5B6 0%, #FE8D27 100%);
+  position: relative;
+  height: 625px;
+  padding: 26px 0;
+  overflow: hidden;
+}
+
+.center-go {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.ready-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.ready-left {
+  text-align: center;
+}
+
+.ready-left h1 {
+  color: #000;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  margin-bottom: 10px;
+}
+
+.ready-left h2 {
+  color: #FAFAFA;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 33px;
+  font-weight: 700;
+  letter-spacing: -0.33px;
+}
+
+.ready-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ready-right a {
+  width: 330px;
+  margin: 20px 0;
+}
+
+.ready-right a img {
+  width: 100%;
+  object-fit: contain;
+}
+.ready-inner{
+    height: 100%;
+}
+@media (max-width: 768px) {
+  .ready-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ready-right a {
+    width: 200px;
+  }
+
+  .gridiant-hero {
+    height: auto;
+    padding: 40px 0;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-money .money-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .money-text h2 {
+    font-size: 36px;
+  }
+}

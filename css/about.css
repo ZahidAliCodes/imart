@@ -1,0 +1,279 @@
+.bg-dark {
+    background-color: var(--bg-dark);
+}
+.main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 124px;
+}
+.main-heading h1 {
+    color: #fff;
+    text-shadow: 0 4px 4px #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+}
+.core-value-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px 0 70px 0;
+}
+.core-left {
+    width: 28%;
+}
+.core-left h1 {
+    color: #1c4606;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px; /* 106.667% */
+    letter-spacing: -0.3px;
+}
+.core-left p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.16px;
+    padding: 4px 0 17px 0;
+}
+.core-left a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    background-color: #1c4606e5;
+    border-radius: 8px;
+    font-weight: 400;
+    color: #f5f5f5;
+    font-size: 16px;
+}
+.our-values {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+.our-values h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: var(--font-tertiary);
+    padding: 8px 0 0 0;
+}
+.icon-main {
+    position: relative;
+}
+.icon-main .icon {
+    position: absolute;
+}
+.icon-circle {
+    left: 48%;
+    transform: translateX(-48%);
+}
+.icon-location {
+    bottom: 0;
+    right: 36px;
+}
+.core-right h1 {
+    color: #1c4606;
+    text-shadow: 0 4px 4px #fe8d27;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.25px;
+    padding: 0 0 15px 0;
+}
+.color-muted {
+    background-color: var(--color-muted);
+}
+.our-story-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 112px 0 50px 0;
+}
+.personal-img {
+    width: 542px;
+    height: 516px;
+}
+.personal-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.stroy-left {
+    width: 41%;
+}
+.stroy-left h1 {
+    color: #1c4606;
+    text-align: center;
+    text-shadow: 0 4px 4px #000;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.33px;
+}
+.story-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 24px 0 0 0;
+}
+.story-desc p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.16px;
+}
+.stroy-right h2 {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3px;
+    margin: 28px 0 0 0;
+}
+.mission {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+.contact-box {
+    width: 402px;
+    height: 512px;
+    margin: 20px auto;
+}
+.talk-btn {
+    margin: 100px 0 0 0;
+}
+.mission-right,
+.mission-left {
+    width: 39%;
+}
+.mission-left h2 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    letter-spacing: -0.24px;
+    padding: 4px 0 0 0;
+}
+.mission-left p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.16px;
+}
+.why-imart {
+    margin: 24px 0 50px 0;
+}
+.why-imart-head {
+    padding: 0 0 15px 0 !important;
+}
+.mission-info p {
+    width: 62%;
+}
+/* * */
+.imart-card h2 {
+    color: #000;
+    font-family: var(--font-quicksand);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+.imart-card p {
+    font-family: var(--font-quicksand);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.17px;
+}
+.imart-btn {
+    background: #263238;
+    font-family: var(--font-quicksand);
+    padding: 14px;
+}
+.imart-badge {
+    color: #fff;
+    font-family: var(--font-poppins);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 115% */
+
+    background: #263238;
+}
+.promo-card-two h2 {
+    color: #fff;
+    font-family: var(--font-poppins);
+}
+.promo-card-two .imart-btn-light {
+    background-color: var(--color-white);
+    font-family: var(--font-poppins);
+    padding: 20px 32px;
+    margin: 0 auto;
+}
+.promo-card-three h2 {
+    font-size: 34px;
+    font-family: var(--font-urbanist);
+}
+.imart-btn-light2 {
+    padding: 20px 30px;
+    font-family: var(--font-urbanist);
+    font-size: 24px;
+    font-weight: 800;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+.imart-promo-cards {
+    padding: 90px 0;
+}
+/* --- STYLES FOR THE TIMER --- */
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.countdown-timer .time-unit {
+    text-align: center;
+}
+
+.countdown-timer .time-value {
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+
+    font-family: var(--font-poppins);
+    line-height: 1;
+}
+
+.countdown-timer .separator {
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    top: -3px; /* Aligns colon nicely */
+}
+
+.countdown-timer .time-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-family: var(--font-quicksand);
+    letter-spacing: 1px;
+}
+/* * */
