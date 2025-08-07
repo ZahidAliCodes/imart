@@ -237,7 +237,7 @@
 .dropdown-options li {
     padding: 10px;
     color: var(--color-text);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 28px; /* 140% */
     text-transform: capitalize;
