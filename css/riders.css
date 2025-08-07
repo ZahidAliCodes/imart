@@ -154,10 +154,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 82px;
+    margin: 50px 0 100px 0;
 }
 
-.center a img {
-    height: 244px;
+.center a  {
+    width: 320px;
+    overflow: hidden;
+}
+.center a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .gridiant-hero {
     background: linear-gradient(180deg, #e0e5b6 0%, #fe8d27 100%);
