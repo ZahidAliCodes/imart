@@ -53,7 +53,6 @@
     border: none;
     border-radius: 10px;
     transition: background-color 0.3s ease;
-
 }
 
 .imart-footer-center ul {
@@ -100,10 +99,63 @@
     width: 100%;
     object-fit: cover;
 }
-
+@media (max-width: 1050px) {
+    .imart-footer {
+        padding: 50px 0;
+    }
+    .imart-footer-right p {
+        margin: 0 0 30px 0;
+    }
+    .imart-footer-center ul li:last-child {
+        margin: 0;
+    }
+}
 @media (max-width: 768px) {
     .imart-footer-container {
         flex-direction: column;
         gap: 30px;
+    }
+    .imart-newsletter-box {
+        width: 80%;
+    }
+    .imart-footer-center ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 638px) {
+    .imart-newsletter-box {
+        width: 100%;
+    }
+    .imart-newsletter-box input {
+        font-size: 16px;
+    }
+    .imart-footer-left p {
+        font-size: 20px;
+    }
+    .imart-footer-center a,
+    .imart-newsletter-box button {
+        font-size: 18px;
+    }
+    .imart-footer-center ul li {
+        margin: 0;
+    }
+    .imart-footer-center ul {
+        gap: 20px;
+    }
+    .imart-footer-right p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 380px) {
+    .imart-newsletter-box button {
+        padding: 10px;
+    }
+    .imart-footer-center a,
+    .imart-newsletter-box button {
+        font-size: 14px;
+    }
+    .imart-footer-right p {
+        font-size: 14px;
     }
 }

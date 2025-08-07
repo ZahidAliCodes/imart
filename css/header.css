@@ -124,6 +124,11 @@
     align-items: center;
     gap: 20px;
 }
+@media (max-width: 1290px) {
+    .nav-right {
+        gap: 30px;
+    }
+}
 @media (max-width: 1150px) {
     .navbar {
         padding: 16px;

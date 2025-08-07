@@ -84,9 +84,7 @@
     font-size: 20px;
     margin: 17px 0 0 0;
 }
-.step-card img {
-    height: 240px;
-}
+
 .steps-cards-main h2 {
     color: var(--bg-dark);
 }
@@ -124,8 +122,8 @@
     margin: 0 0 0 96px;
     transition: background-color 0.3s ease;
 }
-.join-info a:hover{
-     background-color: #e37415;
+.join-info a:hover {
+    background-color: #e37415;
 }
 .require-sec {
     background-color: #d9d9d9;
@@ -158,11 +156,11 @@
     margin: 50px 0 100px 0;
 }
 
-.center a  {
+.center a {
     width: 320px;
     overflow: hidden;
 }
-.center a img{
+.center a img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -232,12 +230,34 @@
 .ready-inner {
     height: 100%;
 }
-@media (max-width: 768px) {
-    .ready-main {
-        flex-direction: column;
-        text-align: center;
+@media (max-width: 1080px) {
+    .mart-is-rght {
+        width: 60%;
     }
-
+    .ready-main {
+        justify-content: space-between;
+    }
+}
+@media (max-width: 950px) {
+    .ready-main {
+        align-items: center;
+        flex-direction: column;
+    }
+    .center-go {
+        display: none;
+    }
+    .mart-is-lft img {
+        width: 350px;
+    }
+    .mart-is-rght {
+        width: 100%;
+    }
+    .req-main {
+        flex-direction: column;
+    }
+    .center a {
+        width: 34%;
+    }
     .ready-right a {
         width: 200px;
     }
@@ -246,16 +266,50 @@
         height: auto;
         padding: 40px 0;
     }
-}
-
-/* Responsive */
-@media (max-width: 768px) {
     .section-money .money-wrapper {
         flex-direction: column;
         text-align: center;
+        gap: 50px;
     }
 
     .money-text h2 {
-        font-size: 36px;
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 600px) {
+    .mart-is-lft img {
+        display: none;
+    }
+    .join-info h1,
+    .req-main h1 {
+        font-size: 20px;
+    }
+    .benefits-list li,
+    .requirement-list {
+        font-size: 18px;
+    }
+    .center {
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .btn-group2 {
+        gap: 30px;
+    }
+    .btn-group a,
+    .center a {
+        width: 50%;
+    }
+    .join-section {
+        padding: 50px 0;
+    }
+    .ready-left h2,
+    .ready-left h1 {
+        font-size: 30px;
+    }
+    .join-info a {
+        font-size: 20px;
+        margin: auto;
     }
 }

@@ -285,7 +285,7 @@
     .contact-form {
         width: 90%;
         height: auto;
-        margin: 100px auto;
+        margin: 50px auto;
         padding: 80px 40px;
     }
 
@@ -297,8 +297,22 @@
     .input-group {
         width: 100%;
     }
+    .faq-heading {
+        padding: 0;
+    }
+    .faq-heading {
+        padding: 0 40px;
+    }
 }
-
+@media (max-width: 800px) {
+    .main-heading h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .faq-heading {
+        padding: 0;
+    }
+}
 @media (max-width: 768px) {
     .contact-form {
         padding: 60px 24px;
@@ -324,8 +338,31 @@
     .submit-btn {
         padding: 12px 24px;
     }
+    .main-heading h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
 }
-
+@media (max-width: 600px) {
+    .main-heading h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .contact-box {
+        width: 100%;
+    }
+    .imart-card h2 {
+        font-size: 30px;
+    }
+    .promo-card-two .imart-btn-light {
+        margin: 44px auto 0 auto;
+    }
+    .terms-info p,
+    .terms-info ul li,
+    .terms-info ol li {
+        font-size: 14px;
+    }
+}
 @media (max-width: 480px) {
     .contact-form {
         padding: 40px 16px;
@@ -339,14 +376,16 @@
         width: 100%;
         text-align: center;
     }
-
-    .dropdown-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-    }
-
     .dropdown-header .selected-option {
         margin-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .imart-card p {
+        padding: 20px 0;
+    }
+    .imart-card h2 {
+        font-size: 20px;
     }
 }
