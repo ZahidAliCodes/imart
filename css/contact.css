@@ -116,7 +116,7 @@
 }
 /* * */
 .faq-heading {
-    padding: 85px 0 0 0;
+    padding: 85px 0 0 40px;
 }
 .talk-btn {
     margin: 100px 0 0 0;
@@ -244,7 +244,9 @@
     cursor: pointer;
     transition: background 0.2s ease;
 }
-
+.faq-container{
+    padding: 0 40px;
+}
 .contact-box {
     width: 402px;
     height: 512px;
@@ -302,6 +304,9 @@
     }
     .faq-heading {
         padding: 0 40px;
+    }
+    .faq-container{
+        padding: 0;
     }
 }
 @media (max-width: 800px) {
