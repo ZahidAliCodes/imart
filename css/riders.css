@@ -1,6 +1,6 @@
 .bg-dark {
     background-color: var(--bg-dark);
-    padding: 50px 0;
+    padding: 50px;
 }
 .section-money .money-wrapper {
     display: flex;
@@ -92,7 +92,7 @@
     background-image: url("../assets/join.png");
     background-size: cover;
     background-position: center;
-    padding: 150px 0;
+    padding: 150px 50px;
 }
 .join-info h1 {
     color: var(--color-text);
@@ -246,6 +246,9 @@
     }
     .ready-main {
         justify-content: space-between;
+    }
+    .bg-dark{
+        padding: 50px 0;
     }
 }
 @media (max-width: 950px) {
