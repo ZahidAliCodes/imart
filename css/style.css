@@ -236,12 +236,11 @@ textarea {
     padding: 0 132px;
 }
 .notes-main {
-    height: 43px;
-    padding: 0 30px;
+    padding: 10px 30px;
     color: var(--color-text);
     font-size: 18px;
     font-weight: 400;
-    line-height: 48px;
+    line-height: 22px;
     border-radius: 30px;
     width: fit-content;
     margin: 0 0 20px 0;
@@ -417,14 +416,7 @@ textarea {
     justify-content: space-between;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
-
 }
-.card-box:hover {
-  transform: scale(1.03);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
-  filter: brightness(1.05);
-}
-
 .card-text {
     font-size: 16px;
     color: #1e1e1e;

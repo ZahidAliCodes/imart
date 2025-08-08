@@ -188,7 +188,7 @@
     padding: 72px 0 36px 0;
 }
 .faq-heading {
-    padding: 85px 0 0 0;
+    padding: 85px 0 0 40px;
 }
 .talk-btn {
     margin: 100px 0 0 0;
@@ -198,9 +198,7 @@
     width: 402px;
     height: 512px;
 }
-.faq-container {
-    padding: 0;
-}
+
 @media (max-width: 1080px) {
     .merc-left p {
         font-size: 18px;
