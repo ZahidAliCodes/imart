@@ -985,6 +985,9 @@ textarea {
     .step-card {
         width: 100%;
     }
+    .faq-heading{
+        padding: 0;
+    }
 }
 
 @media (max-width: 630px) {
@@ -1107,7 +1110,7 @@ textarea {
         font-size: 18px;
     }
     .orange-hero {
-        padding: 0;
+        padding: 40px 0;
     }
     .faq-question {
         font-size: 12px;
