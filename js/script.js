@@ -25,7 +25,6 @@ if (tabTrigger && tabMenu) {
     tabMenu.classList.toggle("hidden");
   });
 
-  // Close menu on outside click
   document.addEventListener("click", function (e) {
     if (!tabTrigger.contains(e.target) && !tabMenu.contains(e.target)) {
       tabMenu.classList.add("hidden");
