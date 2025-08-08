@@ -83,7 +83,6 @@
 }
 .core-right h1 {
     color: var(--bg-dark);
-    text-shadow: 0 4px 4px var(--color-secondary);
     font-size: 25px;
     font-weight: 700;
     line-height: normal;
@@ -96,12 +95,13 @@
 .our-story-main {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 112px 0 50px 0;
+    justify-content: space-between;
+    padding: 112px 50px 50px 50px;
 }
 .personal-img {
     width: 542px;
     height: 516px;
+    margin: 0 0 28px 0;
 }
 .personal-img img {
     height: 100%;
@@ -114,7 +114,6 @@
 .stroy-left h1 {
     color: var(--bg-dark);
     text-align: center;
-    text-shadow: 0 4px 4px var(--color-text);
     font-size: 33px;
     font-weight: 700;
     line-height: normal;
@@ -140,12 +139,14 @@
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 3px;
-    margin: 28px 0 0 0;
+}
+.founder{
+    font-style: italic;
 }
 .mission {
     display: flex;
-    justify-content: space-around;
-    padding: 80px 0;
+    justify-content: space-between;
+    padding: 80px 50px;
 }
 .contact-box {
     width: 402px;
@@ -298,6 +299,7 @@
     .mission {
         flex-direction: column;
         gap: 50px;
+        padding: 50px 0;
     }
     .imart-promo-cards {
         padding: 50px 0;

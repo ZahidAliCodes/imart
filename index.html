@@ -102,13 +102,22 @@
                             <p>Your orders arrive fresh, safe, and exactly how you want them.</p>
                         </div>
                     </div>
-                    <div class="btn-group">
-                        <a href="#">
-                            <img src="assets/mac-os.png" alt="mac-os" />
-                        </a>
-                        <a href="#">
-                            <img src="assets/play-store.png" alt="play-store" />
-                        </a>
+
+                    <div class="download-tab-wrapper">
+                        <button id="downloadTabTrigger" class="download-tab-main">
+                            Download Now
+                        </button>
+
+                        <div id="downloadTabMenu" class="download-tab-menu hidden">
+                            <a href="https://apps.apple.com/app/id123456789" class="download-tab-btn" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/mac.svg" alt="App Store" />
+                                <span>Download on App Store</span>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.example.app" class="download-tab-btn" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/play.svg" alt="Play Store" />
+                                <span>Download on Play Store</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -136,7 +145,7 @@
                     <div class="partner-main">
                         <div class="partner-card">
                             <h2>Grow Your Business with iMart</h2>
-                            <div class="grow">
+                            <div class="grow grow2">
                                 <img src="assets/grow.svg" alt="grow" />
                             </div>
                             <p>Showcase your products to over 3 million iMart users. Expand your reach, boost sales, and enjoy seamless integration.</p>
@@ -198,7 +207,7 @@
                             </div>
                         </div>
 
-                        <div class="card-box">
+                        <div class="card-box flip-card">
                             <p class="card-text">I never imagined grocery shopping could be this convenient. iMart is a lifesaver for busy professionals like me.</p>
                             <div class="card-footer">
                                 <div class="avatar-wrapper">
@@ -208,7 +217,7 @@
                             </div>
                         </div>
 
-                        <div class="card-box">
+                        <div class="card-box flip-card">
                             <p class="card-text">iMart delivers quality and convenience in one package. Their service has made my life so much simpler.</p>
                             <div class="card-footer">
                                 <div class="avatar-wrapper">
@@ -218,7 +227,7 @@
                             </div>
                         </div>
 
-                        <div class="card-box">
+                        <div class="card-box flip-card">
                             <p class="card-text">Thanks to iMart, I can shop from both supermarkets and local markets without stepping out. It's perfect for my family!</p>
                             <div class="card-footer">
                                 <div class="avatar-wrapper">
@@ -237,7 +246,7 @@
                 <div class="experience-main">
                     <h1>The Smoothest Shopping Experience</h1>
                     <p>Shop From Your Favourite Supermarkets, Local Markets, and Pharmacies at In-Store Prices, Delivered to Your Doorstep in Minutes.</p>
-                    <img src="assets/Rectangle 10.svg" alt="" />
+                    <img src="assets/Rectangle 10.png" alt="" />
                     <div class="flex-group">
                         <a href="#" target="_blank">
                             <img src="assets/green-app.jpg" alt="app" />
@@ -466,7 +475,7 @@
                 <div class="imart-footer-container">
                     <div class="imart-footer-left">
                         <a href="index.html">
-                            <img src="assets/ft-logo.svg" alt="iMart Logo" class="imart-footer-logo" />
+                            <img src="assets/footer-logo.png" alt="iMart Logo" class="imart-footer-logo" />
                         </a>
                         <p>Subscribe to our Newsletter</p>
                         <form class="imart-newsletter-box">
@@ -492,8 +501,9 @@
                     <div class="imart-footer-right">
                         <p>
                             <img src="assets/Group 61.svg" alt="mail" />
-                            support@imart.africa
+                            <a href="mailto:support@imart.africa">support@imart.africa</a>
                         </p>
+
                         <p><img src="assets/Group 62.svg" alt="location" />Kolapo Ishola GRA, Ibadan, Nigeria</p>
                         <div class="imart-social-icons">
                             <a href="#">

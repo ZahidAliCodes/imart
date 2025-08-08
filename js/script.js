@@ -17,3 +17,19 @@ faqItems.forEach((item) => {
         }
     });
 });
+const tabTrigger = document.getElementById("downloadTabTrigger");
+const tabMenu = document.getElementById("downloadTabMenu");
+
+if (tabTrigger && tabMenu) {
+  tabTrigger.addEventListener("click", () => {
+    tabMenu.classList.toggle("hidden");
+  });
+
+  // Close menu on outside click
+  document.addEventListener("click", function (e) {
+    if (!tabTrigger.contains(e.target) && !tabMenu.contains(e.target)) {
+      tabMenu.classList.add("hidden");
+    }
+  });
+}
+

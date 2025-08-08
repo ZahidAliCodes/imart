@@ -19,8 +19,14 @@
 }
 .imart-footer-logo {
     margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
 }
-
+.imart-footer-left a{
+    width: 230px;
+    height: 184px;
+    display: inline-block;
+}
 .imart-newsletter-box {
     display: flex;
     width: 550px;
@@ -69,13 +75,12 @@
     font-weight: 500;
     line-height: normal;
 }
-
+.imart-footer-right p a,
 .imart-footer-right p {
     color: #eeeeee;
     font-family: var(--font-urbanist);
     font-size: 20px;
     font-weight: 400;
-    line-height: 23px; /* 115% */
     margin: 60px 0;
     display: flex;
     align-items: center;
