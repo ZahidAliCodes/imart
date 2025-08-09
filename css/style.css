@@ -335,15 +335,20 @@ textarea {
 .partner-card {
     width: 35%;
 }
-
-.grow {
-    width: 340px;
+.grow3{
+        width: 340px;
+    height: 383px;
+    margin: 0 auto;
+}
+.grow2 {
+    width: 396px;
+    height: 383px;
     margin: 0 auto;
 }
 .grow img {
-    height: auto;
+    height: 100%;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .orange-bg {
     background-color: var(--color-secondary) !important;
