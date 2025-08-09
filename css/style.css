@@ -424,6 +424,11 @@ textarea {
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
+.card-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.05);
+}
 .card-text {
     font-size: 16px;
     color: #1e1e1e;
