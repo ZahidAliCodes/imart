@@ -234,24 +234,25 @@ textarea {
     font-size: 33px;
     font-weight: 700;
     line-height: 1.2;
-    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
     letter-spacing: 1px;
     text-align: center;
     padding: 0 70px 72px 0;
 }
 
 .notes-wrapper {
-    padding: 0 132px;
+    padding: 0 150px;
 }
 .notes-main {
-    padding: 10px 30px;
+    padding: 11px 30px;
     color: var(--color-text);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 22px;
     border-radius: 30px;
     width: fit-content;
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
 }
 
 .notes-main strong {
@@ -289,7 +290,7 @@ textarea {
     color: var(--color-text);
     font-size: 25px;
     font-weight: 700;
-    margin: 120px auto 0 auto;
+    margin: 110px auto 0 auto;
     transition: background-color 0.3s ease;
 }
 .partner-main {
@@ -335,16 +336,18 @@ textarea {
 .partner-card {
     width: 35%;
 }
-.grow3{
-    width: 340px;
-    height: 383px;
+.grow3 {
+    width: 250px;
+    height: 300px;
     margin: 0 auto;
 }
+
 .grow2 {
-    width: 396px;
-    height: 383px;
+    width: 250px;
+    height: 300px;
     margin: 0 auto;
 }
+
 .grow img {
     height: 100%;
     width: 100%;
