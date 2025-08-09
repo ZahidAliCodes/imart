@@ -153,10 +153,11 @@ textarea {
     gap: 40px;
 }
 .step-card {
-    width: 28%;
+    width: 27%;
 }
 .step-card img {
     padding: 10px 0 0 0;
+    height: 240px;
 }
 .steps-cards-main h2 {
     font-size: 24px;
