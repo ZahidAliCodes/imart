@@ -17,18 +17,24 @@ faqItems.forEach((item) => {
         }
     });
 });
-const tabTrigger = document.getElementById("downloadTabTrigger");
-const tabMenu = document.getElementById("downloadTabMenu");
+document.addEventListener("DOMContentLoaded", () => {
+  const tabTrigger = document.getElementById("downloadTabTrigger");
+  const tabMenu = document.getElementById("downloadTabMenu");
+  const arrow = tabTrigger ? tabTrigger.querySelector(".arrow") : null;
 
-if (tabTrigger && tabMenu) {
-  tabTrigger.addEventListener("click", () => {
-    tabMenu.classList.toggle("hidden");
-  });
+  if (tabTrigger && tabMenu && arrow) {
+    tabTrigger.addEventListener("click", () => {
+      tabMenu.classList.toggle("hidden");
+      arrow.classList.toggle("rotate");
+    });
 
-  document.addEventListener("click", function (e) {
-    if (!tabTrigger.contains(e.target) && !tabMenu.contains(e.target)) {
-      tabMenu.classList.add("hidden");
-    }
-  });
-}
+    document.addEventListener("click", function (e) {
+      if (!tabTrigger.contains(e.target) && !tabMenu.contains(e.target)) {
+        tabMenu.classList.add("hidden");
+        arrow.classList.remove("rotate");
+      }
+    });
+  }
+});
+
 

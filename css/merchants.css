@@ -182,7 +182,7 @@
     font-weight: 700;
     font-family: var(--font-secondary);
     width: 141px;
-    margin: 33px auto 0 auto;
+    margin: 68px auto 0 auto;
 }
 .love-imart {
     padding: 72px 0 36px 0;
@@ -190,14 +190,9 @@
 .faq-heading {
     padding: 85px 0 0 40px;
 }
-.talk-btn {
-    margin: 100px 0 0 0;
-}
 
-.contact-box {
-    width: 402px;
-    height: 512px;
-}
+
+
 
 @media (max-width: 1080px) {
     .merc-left p {
@@ -214,6 +209,12 @@
     }
     .faq-heading {
         padding: 50px 40px 0 40px;
+    }
+    .steps-cards-main{
+        margin: 30px 0;
+    }
+    .partner-main, .steps-cards-main{
+        gap: 30px;
     }
 }
 @media (max-width: 800px) {

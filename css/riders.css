@@ -1,31 +1,44 @@
 .bg-dark {
     background-color: var(--bg-dark);
     padding: 50px;
+    height: 641px;
+    width: 100%;
+    overflow: hidden;
 }
 .section-money .money-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap; /* keeps it responsive */
+    height: 100%;
 }
+
+.money-text {
+    width: 40%;
+    text-align: left; /* text on left side */
+}
+
 .money-text h2 {
     color: var(--color-white);
-    text-align: center;
     text-shadow: 0 4px 4px var(--bg-dark);
     font-size: clamp(32px, 6vw, 100px);
     font-weight: 700;
     line-height: normal;
     letter-spacing: -1px;
+    text-align: center;
 }
+
 .money-image {
-    width: 55%;
-}
-.money-image img {
+    width: 60%;
+    background-image: url("../assets/riders.png");
+    background-size: contain; /* show entire image */
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100%;
-    object-fit: cover;
-    width: 100%;
 }
+
 .bg-light {
-    padding: 50px 0 75px 0;
+    padding: 85px 0 140px 0;
     background-color: var(--bg-light);
 }
 .what-is-mart-main {
@@ -39,13 +52,14 @@
     gap: 48px;
     align-items: center;
     width: 80%;
+    z-index: 111;
 }
 .mart-is-lft {
     position: relative;
 }
 .mart-is-lft img {
     position: absolute;
-    top: -146px;
+    top: -182px;
 }
 .mart-is-rght h1 {
     color: var(--bg-dark);
@@ -60,12 +74,14 @@
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    line-height: 25px; /* 138.889% */
+    line-height: 25px;
+    width: 80%;
+    margin: 0 auto; /* 138.889% */
 }
 .btn-group2 {
     gap: 62px;
 }
-.btn-group a {
+.btn-group2 a {
     width: 34%;
 }
 .shopping-section {
@@ -77,12 +93,18 @@
     font-weight: 700;
     text-decoration-line: underline;
 }
+.step-card img{
+    height: 226px;
+}
 .shopping-section .subtitle {
     padding: 29px 0 0 0;
+    width: 40%;
+    margin: 0 auto;
 }
 .steps-cards-main p {
     font-size: 20px;
-    margin: 17px 0 0 0;
+    margin: 17px auto 0 auto;
+    width: 95%;
 }
 
 .steps-cards-main h2 {
@@ -107,7 +129,8 @@
     color: var(--color-text);
     font-size: 20px;
     font-weight: 400;
-    line-height: 44px; /* 220% */
+    line-height: 44px;
+    list-style-type: disc;
 }
 .join-info a {
     display: inline-block;
@@ -119,7 +142,7 @@
     font-weight: 700;
     line-height: 24px; /* 96% */
     width: fit-content;
-    margin: 0 0 0 96px;
+    margin: 0 0 0 74px;
     transition: background-color 0.3s ease;
 }
 .join-info a:hover {
@@ -231,14 +254,45 @@
     height: 100%;
 }
 .btn-group{
-    gap: 80px;
+    gap: 154px;
 }
 .btn-group a {
-    width: 34%;
+    width: 30%;
 }.btn-group a img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+@media (max-width: 1180px){
+    .bg-light{
+        padding: 50px 0;
+    }
+        .bg-dark{
+        padding: 50px 0;
+        height: auto;
+    }
+    .shopping-section .subtitle,
+    .mart-is-rght p{
+        width: 100%;
+    }
+    .btn-group a {
+    width: 40%;
+}
+        .section-money .money-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .money-text,
+    .money-image {
+        width: 100%;
+        text-align: center;
+    }
+    .money-image {
+        height: 250px;
+    }
+    .btn-group{
+        gap: 60px;
+    }
 }
 @media (max-width: 1080px) {
     .mart-is-rght {
@@ -247,9 +301,7 @@
     .ready-main {
         justify-content: space-between;
     }
-    .bg-dark{
-        padding: 50px 0;
-    }
+
 }
 @media (max-width: 950px) {
     .ready-main {
@@ -291,6 +343,16 @@
 }
 
 @media (max-width: 600px) {
+    .partner-main, .steps-cards-main,
+    .mart-is-rght{
+        gap: 30px;
+    }
+    .shopping-section{
+        padding: 50px 0;
+    }
+    .shopping-section h1{
+        font-size: 30px;
+    }
     .mart-is-lft img {
         display: none;
     }
@@ -324,5 +386,13 @@
     .join-info a {
         font-size: 20px;
         margin: auto;
+    }
+        .money-image {
+        height: 200px;
+    }
+    .steps-cards-main p{
+        margin: 0 ;
+        width: 100%;
+        font-size: 18px;
     }
 }

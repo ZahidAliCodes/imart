@@ -5,11 +5,23 @@
 
 .imart-footer-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: space-between;
+    gap: 100px;
 }
-
+.ft-right{
+    display: flex;
+        width: -webkit-fill-available;
+    justify-content: space-around;
+    align-items: end;
+}
+.imart-footer-center ul li:last-child{
+    margin: 0;
+}
+.imart-footer-right {
+    display: flex
+;
+    flex-direction: column;
+    gap: 50px;
+}
 .imart-footer-left p {
     color: #eeeeee;
     font-size: 25px;
@@ -81,7 +93,6 @@
     font-family: var(--font-urbanist);
     font-size: 20px;
     font-weight: 400;
-    margin: 60px 0;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -108,11 +119,38 @@
     .imart-footer {
         padding: 50px 0;
     }
-    .imart-footer-right p {
-        margin: 0 0 30px 0;
-    }
+
     .imart-footer-center ul li:last-child {
         margin: 0;
+    }
+    .ft-right,
+    .imart-footer-container{
+        flex-direction: column;
+    }
+    .ft-right{
+        align-items: self-start;
+    }
+    .imart-footer-center {
+    width: 100%;
+}
+  .imart-footer-right{
+        gap: 25px;
+        margin: 50px 0 0 0;
+    }
+        .imart-footer-center ul {
+        display: grid;
+        gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+       .imart-footer-center ul li{
+        margin: 0;
+    }
+        .imart-footer-center ul li {
+        margin: 0;
+    }
+    .imart-footer-center ul {
+        gap: 20px;
     }
 }
 @media (max-width: 768px) {
@@ -123,10 +161,7 @@
     .imart-newsletter-box {
         width: 80%;
     }
-    .imart-footer-center ul {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+
 }
 @media (max-width: 638px) {
     .imart-newsletter-box {
@@ -142,15 +177,8 @@
     .imart-newsletter-box button {
         font-size: 18px;
     }
-    .imart-footer-center ul li {
-        margin: 0;
-    }
-    .imart-footer-center ul {
-        gap: 20px;
-    }
-    .imart-footer-right p {
-        font-size: 16px;
-    }
+
+ 
 }
 @media (max-width: 380px) {
     .imart-newsletter-box button {
@@ -160,7 +188,7 @@
     .imart-newsletter-box button {
         font-size: 14px;
     }
-    .imart-footer-right p {
-        font-size: 14px;
+    .imart-footer-right p a, .imart-footer-right p {
+        font-size: 16px;
     }
 }
