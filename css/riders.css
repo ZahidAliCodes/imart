@@ -20,7 +20,7 @@
 
 .money-text h2 {
     color: var(--color-white);
-    text-shadow: 0 4px 4px var(--bg-dark);
+    text-shadow: 0 2px 2px var(--color-text);
     font-size: clamp(32px, 6vw, 100px);
     font-weight: 700;
     line-height: normal;

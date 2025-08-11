@@ -17,24 +17,31 @@ faqItems.forEach((item) => {
         }
     });
 });
+
 document.addEventListener("DOMContentLoaded", () => {
-  const tabTrigger = document.getElementById("downloadTabTrigger");
-  const tabMenu = document.getElementById("downloadTabMenu");
-  const arrow = tabTrigger ? tabTrigger.querySelector(".arrow") : null;
+  const wrappers = document.querySelectorAll(".download-tab-wrapper");
 
-  if (tabTrigger && tabMenu && arrow) {
-    tabTrigger.addEventListener("click", () => {
-      tabMenu.classList.toggle("hidden");
-      arrow.classList.toggle("rotate");
-    });
+  wrappers.forEach(wrapper => {
+    const tabTrigger = wrapper.querySelector(".download-tab-trigger");
+    const tabMenu = wrapper.querySelector(".download-tab-menu");
+    const arrow = tabTrigger ? tabTrigger.querySelector(".arrow") : null;
 
-    document.addEventListener("click", function (e) {
-      if (!tabTrigger.contains(e.target) && !tabMenu.contains(e.target)) {
-        tabMenu.classList.add("hidden");
-        arrow.classList.remove("rotate");
-      }
-    });
-  }
+    if (tabTrigger && tabMenu && arrow) {
+      tabTrigger.addEventListener("click", (e) => {
+        e.stopPropagation(); // prevent document click from immediately hiding menu
+        tabMenu.classList.toggle("hidden");
+        arrow.classList.toggle("rotate");
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!wrapper.contains(e.target)) {
+          tabMenu.classList.add("hidden");
+          arrow.classList.remove("rotate");
+        }
+      });
+    }
+  });
 });
+
 
 

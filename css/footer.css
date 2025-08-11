@@ -11,14 +11,12 @@
     display: flex;
         width: -webkit-fill-available;
     justify-content: space-around;
-    align-items: end;
 }
 .imart-footer-center ul li:last-child{
     margin: 0;
 }
 .imart-footer-right {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     gap: 50px;
 }

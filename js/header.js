@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         navMenu.classList.toggle("active");
     });
 
-    // Close menu on normal link click
+    // Close menu on normal link click (links without dropdown)
     document.querySelectorAll(".nav-link").forEach((link) => {
         if (!link.parentElement.classList.contains("has-dropdown")) {
             link.addEventListener("click", () => {
@@ -21,13 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // Dropdown click
+    // Dropdown click for mobile toggle
     dropdowns.forEach((dropdown) => {
         dropdown.addEventListener("click", function (event) {
             if (window.innerWidth <= 992) {
-                // Toggle dropdown menu without preventing link clicks
-                const isLink = event.target.tagName.toLowerCase() === 'a';
-                if (!isLink) {
+                // If clicked inside dropdown submenu links, let it navigate normally
+                const isDropdownLink = event.target.closest(".dropdown-menu a");
+                if (!isDropdownLink) {
                     event.preventDefault();
                     dropdown.classList.toggle("active");
                 }
@@ -35,3 +35,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
