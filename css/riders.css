@@ -396,3 +396,8 @@
         font-size: 18px;
     }
 }
+@media (max-width: 380px){
+.step-card img {
+    width: 226px;
+}
+}

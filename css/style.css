@@ -37,9 +37,7 @@
     --shadow-strong: 0px 4px 4px #000000e3;
 }
 /* Reset */
-*,
-*::before,
-*::after {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -479,7 +477,7 @@ textarea {
     padding: 96px 0;
     text-align: center;
 }
-.experience-main img {
+.exp-mbl {
     width: 38%;
 }
 .experience-main h1 {
@@ -652,8 +650,13 @@ textarea {
     overflow: hidden;
     position: relative;
     min-height: 540px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
-
+.imart-card:hover{
+          transform: scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.05);
+}
 .promo-card-one {
     background: var(--color-muted);
 }
@@ -826,6 +829,29 @@ textarea {
     width: 30px;
     object-fit: contain;
 }
+.rating-container {
+    display: flex;
+    align-items: center;
+}
+.user-info {
+    display: flex
+;
+    flex-direction: column;
+    gap: 2px;
+}
+.stars {
+display: flex;
+    position: relative;
+    font-size: 16px;
+    color: #dcd8d8;
+    background: linear-gradient(to right, #e8a22e calc(var(--rating) * 20%), #dcd8d8 calc(var(--rating) * 20%));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.stars i {
+    margin: 0 2px; 
+}
 
 /* Responsive */
 @media (max-width: 1050px) {
@@ -919,17 +945,11 @@ textarea {
         padding: 12px 0 0 0;
         margin: auto;
     }
-    .experience-main img {
-        width: 40%;
+    .exp-mbl {
+        width: 60%;
         margin: 50px 0 0 0;
     }
-    .flex-group a {
-        width: 34%;
-    }
-    .flex-group {
-        gap: 50px;
-        margin: 0;
-    }
+
     .partner-card p {
         min-height: 120px;
     }
@@ -949,6 +969,7 @@ textarea {
     .love-imart,
     .shopping-section {
         padding: 50px 0;
+        height: auto;
     }
     .steps-cards-main {
         margin: 50px auto;
@@ -1015,6 +1036,9 @@ textarea {
 }
 
 @media (max-width: 630px) {
+    .talk-btn{
+    margin: 0;
+}
     .container {
         overflow: hidden;
     }
@@ -1136,9 +1160,6 @@ textarea {
     .orange-hero {
         padding: 40px 0;
     }
-    .faq-question {
-        font-size: 12px;
-    }
     .faq-answer p {
         font-size: 14px;
     }
@@ -1149,4 +1170,5 @@ textarea {
         font-size: 14px;
         padding: 30px 0;
     }
+
 }

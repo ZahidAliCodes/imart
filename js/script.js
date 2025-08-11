@@ -44,4 +44,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+        document.querySelectorAll('.stars').forEach(starContainer => {
+    const rating = parseFloat(starContainer.getAttribute('style').match(/--rating: ([\d.]+)/)[1]);
+    starContainer.style.setProperty('--rating', rating);
+});
+
 

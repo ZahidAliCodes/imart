@@ -174,4 +174,12 @@
     .imart-card h2 {
         font-size: 20px;
     }
+    .shopping-section a {
+    font-size: 18px;
+    padding: 18px;
+}
+.steps-cards-main svg{
+    width: 19px;
+    height: 14px 24px;
+}
 }
