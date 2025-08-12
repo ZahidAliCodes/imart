@@ -1,5 +1,7 @@
 .merchant-bg {
     background-color: var(--bg-dark);
+    padding: 124px 0;
+
 }
 .merchant-main {
     display: flex;
@@ -141,7 +143,6 @@
 @media (max-width: 600px) {
     .merchant-main {
         flex-direction: column;
-        padding: 50px 0;
     }
     .main-heading h1 {
         font-size: 50px;
@@ -149,9 +150,6 @@
     }
     .contact-box {
         width: 100%;
-    }
-    .imart-card h2 {
-        font-size: 30px;
     }
     .promo-card-two .imart-btn-light {
         margin: 44px auto 0 auto;
@@ -165,9 +163,6 @@
 @media (max-width: 400px) {
     .imart-card p {
         padding: 20px 0;
-    }
-    .imart-card h2 {
-        font-size: 20px;
     }
     .shopping-section a {
     font-size: 18px;
