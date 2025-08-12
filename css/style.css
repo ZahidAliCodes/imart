@@ -10,6 +10,10 @@
     --font-urbanist: "Urbanist", sans-serif;
     --font-poppins: "Poppins", sans-serif;
 
+    /* Font Weights */
+    --font-normal: 400;
+    --font-bold: 700;
+
     /* Brand Colors */
     --color-primary: #15ff00;
     --color-secondary: #fe8d27;
@@ -20,6 +24,7 @@
     /* Text Colors */
     --color-white: #ffffff;
     --color-text: #000000;
+    --color-white2: #f3f4f6;
 
     /* Backgrounds */
     --bg-light: #fafafa;
@@ -35,6 +40,7 @@
 
     /* Shadows */
     --shadow-strong: 0px 4px 4px #000000e3;
+    --shadow-light: 0px 2px 2px #000000e3;
 }
 /* Reset */
 *{
@@ -111,11 +117,11 @@ textarea {
     font-size: 64px;
     line-height: normal;
     letter-spacing: -0.64px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     text-shadow: var(--shadow-strong);
 }
 .hero-content p {
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-size: 18px;
     color: var(--color-primary);
     line-height: 23px;
@@ -131,7 +137,7 @@ textarea {
 .shopping-section h1 {
     color: var(--color-text);
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
 }
 .shopping-section2 h1{
     text-decoration: underline;
@@ -140,7 +146,7 @@ textarea {
 .shopping-section .subtitle {
     color: var(--color-text);
     font-size: 18px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     line-height: 23px;
     padding: 8px 0 0 0;
 }
@@ -159,7 +165,7 @@ textarea {
 }
 .steps-cards-main h2 {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     letter-spacing: -0.25px;
 }
@@ -175,7 +181,7 @@ textarea {
 .steps-cards-main p {
     color: var(--color-text);
     font-size: 18px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     line-height: 25px;
     letter-spacing: -0.18px;
 }
@@ -184,14 +190,12 @@ textarea {
     align-items: center;
     justify-content: center;
 }
-
 .download-options {
     display: none;
     gap: 40px;
     margin-top: 20px;
     justify-content: center;
 }
-
 .download-options a {
     display: inline-block;
     width: 30%;
@@ -204,14 +208,13 @@ textarea {
     height: auto;
     object-fit: contain;
 }
-
 .main-btn {
     display: inline-block;
     text-align: center;
     padding: 12px;
     background-color: var(--bg-dark);
     border-radius: var(--radius-md);
-    font-weight: 400;
+    font-weight: var(--font-normal);
     color: #f5f5f5;
     font-size: 16px;
     font-family: var(--font-tertiary);
@@ -225,12 +228,11 @@ textarea {
     justify-content: center;
     position: relative;
     padding: 64px 0;
-    height: 652px;
 }
 .love-imart h1 {
     color: #ffffff;
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: 1.2;
    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
@@ -239,7 +241,6 @@ textarea {
     text-align: center;
     padding: 0 130px 72px 0;
 }
-
 .notes-wrapper {
     padding: 0 150px;
 }
@@ -247,50 +248,49 @@ textarea {
     padding: 11px 30px;
     color: var(--color-text);
     font-size: 17px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     line-height: 22px;
     border-radius: 30px;
     width: fit-content;
     margin: 0 0 15px 0;
 }
-
 .notes-main strong {
-    font-weight: 700;
+    font-weight: var(--font-bold);
 }
-
 .notes-1 {
     background: #f5f5f5;
     margin-right: auto;
 }
-
 .notes-2 {
     background: var(--color-accent);
     margin-left: auto;
 }
-
 .notes-3 {
     background: var(--color-highlight);
     margin-right: auto;
     margin-left: 60px;
 }
-
 .notes-4 {
     background: var(--bg-light-alt);
     margin-left: auto;
 }
 .download-btn {
     display: flex;
-    width: 215px;
     height: 64px;
+    padding: 0 18px;
+    gap: 9px;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
     background: var(--color-accent);
     color: var(--color-text);
     font-size: 25px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     margin: 110px auto 0 auto;
     transition: background-color 0.3s ease;
+}
+.download-btn img{
+     filter: brightness(0) invert(0);
 }
 .partner-main {
     display: flex;
@@ -301,7 +301,7 @@ textarea {
 .partner-card h2 {
     color: var(--color-text);
     font-size: 25px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     letter-spacing: -0.33px;
 }
@@ -309,8 +309,8 @@ textarea {
     color: var(--color-text);
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 25px; /* 138.889% */
+    font-weight: var(--font-normal);
+    line-height: 25px; 
     letter-spacing: -0.18px;
     min-height: 80px;
 }
@@ -322,7 +322,7 @@ textarea {
     color: var(--color-white);
     font-family: var(--font-secondary);
     font-size: 24px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     width: 209px;
     height: 46px;
@@ -340,13 +340,11 @@ textarea {
     height: 300px;
     margin: 0 auto;
 }
-
 .grow2 {
     width: 250px;
     height: 300px;
     margin: 0 auto;
 }
-
 .grow img {
     height: 100%;
     width: 100%;
@@ -381,20 +379,17 @@ textarea {
 .imart-btn-light:hover {
     background-color: #e5e7eb;
 }
-
 .corner-img {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 10;
 }
-
 .yellow-bg {
     background-color: var(--color-accent);
     position: relative;
     padding-top: 100px; 
 }
-
 .orange-hero {
     background: linear-gradient(180deg, #fe8d27 81.13%, #ffe8a3 100%);
     padding: 80px 64px;
@@ -406,11 +401,10 @@ textarea {
     z-index: 5;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
-
 .orange-hero h1 {
     color: var(--color-text);
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: 25px; 
     letter-spacing: -0.33px;
 }
@@ -421,7 +415,6 @@ textarea {
     gap: 24px;
     padding: 80px 0 50px 0;
 }
-
 .card-box {
     background-color: var(--bg-light);
     border-radius: var(--radius-md);
@@ -433,25 +426,23 @@ textarea {
     transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
 }
 .card-box:hover {
-  transform: scale(1.03);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-  filter: brightness(1.05);
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.05);
 }
 .card-text {
     font-size: 16px;
     color: #1e1e1e;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     line-height: 22.4px;
     margin-bottom: 32px;
     font-family: var(--font-tertiary);
 }
-
 .card-footer {
     display: flex;
     align-items: center;
     gap: 12px;
 }
-
 .avatar-wrapper {
     width: 40px;
     height: 40px;
@@ -459,14 +450,12 @@ textarea {
     overflow: hidden;
     flex-shrink: 0;
 }
-
 .card-avatar {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-
 .card-name {
     font-weight: 600;
     font-size: 16px;
@@ -483,22 +472,21 @@ textarea {
 .experience-main h1 {
     color: var(--bg-dark);
     font-size: 33px;
-    font-weight: 700;
-    line-height: 120%; /* 39.6px */
+    font-weight: var(--font-bold);
+    line-height: 120%; 
     letter-spacing: -0.66px;
 }
 .experience-main p {
     color: var(--color-text);
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 18px;
-    font-weight: 400;
-    line-height: 20px; /* 111.111% */
+    font-weight: var(--font-normal);
+    line-height: 20px; 
     letter-spacing: -0.18px;
     width: 50%;
     padding: 9px 0;
     margin: 0 auto;
 }
-
 .flex-group {
     margin: 30px 0 0 0;
 }
@@ -512,28 +500,24 @@ textarea {
     padding: 0 40px;
     margin: 46px auto 0 auto;
 }
-
 .faq-left {
     width: 751px;
-    flex: 0 0 auto; /* Prevent shrinking or growing */
+    flex: 0 0 auto; 
 }
-
 .faq-right {
     width: 401px;
     flex: 0 0 auto;
     display: flex;
     align-items: flex-start;
 }
-
 .faq-heading {
     color: var(--color-text);
     font-size: 60px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     padding: 0 40px;
-    line-height: 76px; /* 126.667% */
+    line-height: 76px; 
     letter-spacing: -1.8px;
 }
-
 .faq-item {
     border-radius: 10px;
     border: 1px solid var(--border-light);
@@ -552,7 +536,7 @@ textarea {
     padding: 24px  31px 24px 23px; 
     background: var(--color-white);
     font-size: 22px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     color: var(--color-text);
     border: none;
     cursor: pointer;
@@ -561,7 +545,6 @@ textarea {
     align-items: center;
     
 }
-
 .faq-answer {
     display: none;
     padding: 8px 20px 20px;
@@ -569,27 +552,32 @@ textarea {
 .faq-answer p {
     color: var(--color-text);
     font-size: 16px;
-    font-weight: 400;
-    line-height: 22px; /* 193.75% */
+    font-weight: var(--font-normal);
+    line-height: 22px; 
     letter-spacing: -0.32px;
 }
-
 .contact-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    gap: 26px;
     border: 1px solid var(--border-light);
     background: var(--color-white);
     padding: 75px 32px 38px 32px;
     text-align: center;
     width: 402px;
-    height: 512px;
+    height: 443px;
     margin: 0 auto;
 }
+.contact-box-inner{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
 
+}
 .icon-box {
     width: 67px;
 }
@@ -601,20 +589,18 @@ textarea {
 .contact-box h3 {
     color: var(--color-text);
     font-size: 22px;
-    font-weight: 700;
-    line-height: 22px; /* 100% */
+    font-weight: var(--font-bold);
+    line-height: 22px; 
     text-transform: capitalize;
 }
-
 .contact-box p {
     color: var(--color-text);
     font-family: var(--font-manrope);
     font-size: 16px;
     font-weight: 600;
-    line-height: 31px; /* 193.75% */
+    line-height: 31px; 
     letter-spacing: -0.32px;
 }
-
 .talk-btn {
     display: flex;
     align-items: center;
@@ -627,12 +613,11 @@ textarea {
     font-family: var(--font-secondary);
     font-size: 18px;
     margin: 62px 0 0 0;
-    font-weight: 700;
-    line-height: 31px; /* 172.222% */
+    font-weight: var(--font-bold);
+    line-height: 31px; 
     letter-spacing: -0.36px;
     transition: background-color 0.3s ease;
 }
-
 .imart-promo-cards {
     display: flex;
     flex-wrap: wrap;
@@ -640,7 +625,6 @@ textarea {
     padding: 160px 33px 33px 33px;
     justify-content: center;
 }
-
 .imart-card {
     flex: 0 0 446px;
     max-width: 446px;
@@ -660,14 +644,12 @@ textarea {
 .promo-card-one {
     background: var(--color-muted);
 }
-
 .promo-card-two {
     border-radius: 10px;
     background: rgba(28, 70, 6, 0.9);
     color: var(--color-white);
     text-align: center;
 }
-
 .promo-card-three {
     background: var(--color-secondary);
 }
@@ -678,21 +660,19 @@ textarea {
     color: var(--color-text);
     font-size: 33px;
     text-align: left;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: 48px;
     letter-spacing: -0.33px;
 }
-
 .imart-card p {
     color: var(--color-text);
     font-size: 17px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     line-height: normal;
     letter-spacing: -0.17px;
     width: 90%;
     padding: 40px 0;
 }
-
 .imart-btn {
     display: flex;
     align-items: center;
@@ -703,18 +683,17 @@ textarea {
     color: var(--color-white);
     padding: 18px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     text-decoration: none;
     width: fit-content;
     transition: background-color 0.3s ease;
 }
-
 .imart-btn-light {
     color: #161b20;
     text-align: center;
     font-size: 24px;
-    font-weight: 700;
-    line-height: 24px; /* 100% */
+    font-weight: var(--font-bold);
+    line-height: 24px; 
     border-radius: 100px;
     background: var(--color-white);
     margin: 58px auto 0 auto;
@@ -725,8 +704,8 @@ textarea {
     color: #161b20;
     text-align: center;
     font-size: 24px;
-    font-weight: 700;
-    line-height: 24px; /* 100% */
+    font-weight: var(--font-bold);
+    line-height: 24px; 
     border-radius: 100px;
     background: var(--color-white);
     position: relative;
@@ -746,8 +725,8 @@ textarea {
     color: var(--color-white);
     text-align: center;
     font-size: 33px;
-    font-weight: 400;
-    line-height: 48px; /* 145.455% */
+    font-weight: var(--font-normal);
+    line-height: 48px; 
 }
 .imart-card-img1 {
     position: absolute;
@@ -767,7 +746,6 @@ textarea {
     gap: 10px;
     flex-direction: column;
 }
-
 .download-tab-main {
     display: flex;
     align-items: center;
@@ -776,7 +754,7 @@ textarea {
     color: var(--color-white);
     font-family: var(--font-secondary);
     font-size: 22px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     width: 209px;
     height: 46px;
@@ -797,18 +775,15 @@ textarea {
 .arrow.rotate {
     transform: rotate(180deg);
 }
-
 .download-tab-menu {
     display: flex;
     gap: 10px;
 }
-
 .hidden {
   display: none;
 }
-
 .download-tab-btn {
-    background-color: #000000;
+    background-color: var(--color-text);
     display: flex;
     align-items: center;
     text-align: center;
@@ -819,12 +794,11 @@ textarea {
 }
 .download-tab-btn span {
     display: inline-block;
-    font-weight: 700;
-    color: #ffffff;
+    font-weight: var(--font-bold);
+    color: var(--color-white);
     font-size: 18px;
     font-family: var(--font-tertiary);
 }
-
 .download-tab-btn img {
     width: 30px;
     object-fit: contain;
@@ -834,8 +808,7 @@ textarea {
     align-items: center;
 }
 .user-info {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     gap: 2px;
 }
@@ -852,13 +825,11 @@ display: flex;
 .stars i {
     margin: 0 2px; 
 }
-
 /* Responsive */
 @media (max-width: 1050px) {
     .container {
         padding: 0 20px;
     }
-
     .notes-main {
         height: auto;
         width: auto;
@@ -866,26 +837,21 @@ display: flex;
         padding: 10px 30px;
         line-height: 20px;
     }
-
     .notes-wrapper {
         padding: 0;
     }
-
     .partner-card {
         width: 48%;
     }
-
     .orange-hero {
         padding: 50px 20px;
         height: auto;
         margin-left: 24px;
         margin-right: 24px;
     }
-
     .card-text {
         font-size: 15px;
     }
-
     .cards-wrapper {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 20px;

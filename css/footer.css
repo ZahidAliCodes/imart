@@ -138,7 +138,7 @@
         .imart-footer-center ul {
         display: grid;
         gap: 25px;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
   
        .imart-footer-center ul li{
@@ -154,7 +154,7 @@
 @media (max-width: 768px) {
     .imart-footer-container {
         flex-direction: column;
-        gap: 30px;
+        gap: 50px;
     }
     .imart-newsletter-box {
         width: 80%;
@@ -184,7 +184,7 @@
     }
     .imart-footer-center a,
     .imart-newsletter-box button {
-        font-size: 14px;
+        font-size: 16px;
     }
     .imart-footer-right p a, .imart-footer-right p {
         font-size: 16px;

@@ -9,34 +9,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap; /* keeps it responsive */
+    flex-wrap: wrap;
     height: 100%;
 }
-
 .money-text {
     width: 40%;
-    text-align: left; /* text on left side */
+    text-align: left; 
 }
-
 .money-text h2 {
     color: var(--color-white);
-    text-shadow: 0 2px 2px var(--color-text);
+    text-shadow: var(--shadow-light);
     font-size: clamp(32px, 6vw, 100px);
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     letter-spacing: -1px;
     text-align: center;
 }
-
 .money-image {
     width: 60%;
     background-image: url("../assets/riders.png");
-    background-size: contain; /* show entire image */
+    background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
 }
-
 .bg-light {
     padding: 85px 0 140px 0;
     background-color: var(--bg-light);
@@ -45,7 +41,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .mart-is-rght {
     display: flex;
     flex-direction: column;
@@ -65,7 +60,7 @@
     color: var(--bg-dark);
     text-align: center;
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     text-decoration-line: underline;
 }
@@ -73,10 +68,10 @@
     color: var(--color-text);
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     line-height: 25px;
     width: 80%;
-    margin: 0 auto; /* 138.889% */
+    margin: 0 auto; 
 }
 .btn-group2 {
     gap: 62px;
@@ -90,7 +85,7 @@
 .shopping-section h1 {
     color: var(--bg-dark);
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     text-decoration-line: underline;
 }
 .step-card img{
@@ -106,7 +101,6 @@
     margin: 17px auto 0 auto;
     width: 95%;
 }
-
 .steps-cards-main h2 {
     color: var(--bg-dark);
 }
@@ -119,7 +113,7 @@
 .join-info h1 {
     color: var(--color-text);
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
 }
 .benefits-list {
@@ -128,7 +122,7 @@
 .benefits-list li {
     color: var(--color-text);
     font-size: 20px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     line-height: 44px;
     list-style-type: disc;
 }
@@ -139,8 +133,8 @@
     padding: 20px 78px;
     color: var(--color-text);
     font-size: 25px;
-    font-weight: 700;
-    line-height: 24px; /* 96% */
+    font-weight: var(--font-bold);
+    line-height: 24px; 
     width: fit-content;
     margin: 0 0 0 74px;
     transition: background-color 0.3s ease;
@@ -155,12 +149,11 @@
 .requirement-list {
     color: var(--color-text);
     font-size: 20px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     line-height: 44px;
     list-style-type: disc;
     padding-left: 20px;
 }
-
 .req-main {
     display: flex;
     align-items: center;
@@ -168,7 +161,7 @@
 .req-main h1 {
     color: var(--color-text);
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     padding: 0 0 28px 0;
 }
 .center {
@@ -178,7 +171,6 @@
     gap: 82px;
     margin: 50px 0 100px 0;
 }
-
 .center a {
     width: 320px;
     overflow: hidden;
@@ -195,7 +187,6 @@
     padding: 26px 0;
     overflow: hidden;
 }
-
 .center-go {
     position: absolute;
     left: 50%;
@@ -203,7 +194,6 @@
     transform: translateX(-50%);
     z-index: 1;
 }
-
 .ready-main {
     display: flex;
     justify-content: space-around;
@@ -213,39 +203,33 @@
     z-index: 2;
     height: 100%;
 }
-
 .ready-left {
     text-align: center;
 }
-
 .ready-left h1 {
     color: var(--color-text);
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 35px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     letter-spacing: -0.35px;
     margin-bottom: 10px;
 }
-
 .ready-left h2 {
-    color: #fafafa;
+    color: var(--bg-light);
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     letter-spacing: -0.33px;
 }
-
 .ready-right {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .ready-right a {
     width: 330px;
     margin: 20px 0;
 }
-
 .ready-right a img {
     width: 100%;
     object-fit: contain;
@@ -277,8 +261,8 @@
     }
     .btn-group a {
     width: 40%;
-}
-        .section-money .money-wrapper {
+    }
+    .section-money .money-wrapper {
         flex-direction: column;
         gap: 20px;
     }
@@ -341,7 +325,6 @@
         font-size: 42px;
     }
 }
-
 @media (max-width: 600px) {
     .partner-main, .steps-cards-main,
     .mart-is-rght{
@@ -397,7 +380,7 @@
     }
 }
 @media (max-width: 380px){
-.step-card img {
-    width: 226px;
-}
+    .step-card img {
+        width: 226px;
+    }
 }

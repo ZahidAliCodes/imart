@@ -14,9 +14,9 @@
 }
 .main-heading h1 {
     color: var(--color-white);
-    text-shadow: 0 2px 2px var(--color-text);
+    text-shadow: var(--shadow-light);
     font-size: 64px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     letter-spacing: -0.64px;
 }
@@ -28,7 +28,7 @@
 .terms-info ol li {
     color: var(--color-text);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     letter-spacing: -0.16px;
 }
 .italic {
@@ -38,7 +38,7 @@
 .terms-info h3 {
     color: var(--color-text);
     font-size: 16px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: 24px;
     letter-spacing: -0.16px;
     margin: 16px 0 0 0;

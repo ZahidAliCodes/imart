@@ -15,16 +15,16 @@
 }
 .merc-left h1 {
     color: var(--color-white);
-    text-shadow: 0 2px 2px var(--color-text);
+    text-shadow: var(--shadow-light);
     font-size: 64px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     letter-spacing: -0.64px;
 }
 .merc-left p {
     color: var(--color-accent);
-    text-shadow: 0 4px 4px rgba(20, 17, 17, 0.25);
+    text-shadow: var(--shadow-light);
     font-size: 20px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     letter-spacing: -0.2px;
     margin: 18px 0;
     width: 66%;
@@ -40,7 +40,7 @@
     color: var(--color-white);
     font-family: var(--font-secondary);
     font-size: 18px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     gap: 9px;
 }
 .merc-right {
@@ -84,9 +84,8 @@
 }
 .download-btn {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     font-family: var(--font-secondary);
-    width: 141px;
     margin: 68px auto 0 auto;
 }
 .love-imart {
@@ -95,10 +94,6 @@
 .faq-heading {
     padding: 85px 0 0 40px;
 }
-
-
-
-
 @media (max-width: 1080px) {
     .merc-left p {
         font-size: 18px;

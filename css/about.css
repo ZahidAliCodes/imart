@@ -9,9 +9,9 @@
 }
 .main-heading h1 {
     color: var(--color-white);
-    text-shadow: 0 2px 2px var(--color-text);
+    text-shadow: var(--shadow-light);
     font-size: 64px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     letter-spacing: -0.64px;
 }
@@ -23,37 +23,39 @@
     padding: 100px 0 70px 0;
 }
 .core-left {
-    width: 28%;
+    width: 40%;
 }
 .core-left h1 {
     color: var(--bg-dark);
     font-size: 30px;
-    font-weight: 700;
-    line-height: 32px; /* 106.667% */
+    font-weight: var(--font-bold);
+    line-height: 32px; 
     letter-spacing: -0.3px;
 }
 .core-left p {
     color: var(--color-text);
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
+    font-weight: var(--font-normal);
+    line-height: 24px; 
     letter-spacing: -0.16px;
     padding: 4px 0 17px 0;
 }
-.core-left a {
-    display: inline-block;
+
+.download-tab-main  {
+    display: flex;
     text-align: center;
     padding: 12px;
+    width: fit-content;
     background-color: var(--bg-dark-accent);
     border-radius: var(--radius-md);
-    font-weight: 400;
+    font-weight: var(--font-normal);
     color: #f5f5f5;
     font-size: 16px;
     font-family: var(--font-tertiary);
     transition: 0.5s;
 }
-.core-left a:hover {
-    background-color: var(--color-text);
+.download-tab-main:hover {
+    background-color: var(--color-text) !important;
 }
 .our-values {
     display: grid;
@@ -62,7 +64,7 @@
 }
 .our-values h2 {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
     color: var(--color-text);
     font-family: var(--font-tertiary);
     padding: 8px 0 0 0;
@@ -84,7 +86,7 @@
 .core-right h1 {
     color: var(--bg-dark);
     font-size: 25px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     letter-spacing: -0.25px;
     padding: 0 0 15px 0;
@@ -115,7 +117,7 @@
     color: var(--bg-dark);
     text-align: center;
     font-size: 33px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: normal;
     letter-spacing: -0.33px;
 }
@@ -128,15 +130,15 @@
 .story-desc p {
     color: var(--color-text);
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
+    font-weight: var(--font-normal);
+    line-height: 24px; 
     letter-spacing: -0.16px;
 }
 .stroy-right h2 {
     color: var(--color-text);
     text-align: center;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: var(--font-bold);
     line-height: 24px;
     letter-spacing: 3px;
 }
@@ -155,31 +157,30 @@
 .mission-left h2 {
     color: var(--color-text);
     font-size: 24px;
-    font-weight: 700;
-    line-height: 24px; /* 100% */
+    font-weight: var(--font-bold);
+    line-height: 24px; 
     letter-spacing: -0.24px;
     padding: 4px 0 15px 0;
 }
 .mission-left p {
     color: var(--color-text);
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
+    font-weight: var(--font-normal);
+    line-height: 24px; 
     letter-spacing: -0.16px;
 }
 .why-imart {
     margin: 24px 0 50px 0;
 }
-
 .mission-info p {
     width: 62%;
 }
-
 /* Responsive */
 @media (max-width: 1050px) {
     .our-story-main,
     .core-value-hero {
         flex-direction: column-reverse;
+        width: 100%;
     }
     .mission-right,
     .mission-left,
@@ -208,6 +209,9 @@
     }
 }
 @media (max-width: 600px) {
+    .core-left h1{
+        font-size: 24px;
+    }
     .personal-img {
         height: auto;
         width: auto;
@@ -233,7 +237,6 @@
     }
     .core-left p {
         font-size: 14px;
-        padding: 20px;
     }
     .mission {
         padding: 50px 0;
