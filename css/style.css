@@ -230,7 +230,7 @@ textarea {
     padding: 64px 0;
 }
 .love-imart h1 {
-    color: #ffffff;
+    color: var(--color-white);
     font-size: 33px;
     font-weight: var(--font-bold);
     line-height: 1.2;
