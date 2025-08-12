@@ -1,7 +1,5 @@
 .merchant-bg {
     background-color: var(--bg-dark);
-    padding: 124px 0;
-
 }
 .merchant-main {
     display: flex;
@@ -138,6 +136,9 @@
     }
     .merc-right {
         display: none;
+    }
+    .merchant-bg {
+        padding: 50px 0;
     }
 }
 @media (max-width: 600px) {
