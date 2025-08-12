@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 124px 0;
+    padding: 125px 0;
 }
 .main-heading h1 {
     color: var(--color-white);
@@ -21,7 +21,7 @@
     letter-spacing: -0.64px;
 }
 .terms-info {
-    padding: 86px 0 140px 0;
+    padding: 64px 0 140px 0;
 }
 .terms-info p,
 .terms-info ul li,
@@ -30,6 +30,7 @@
     font-size: 16px;
     font-weight: var(--font-normal);
     letter-spacing: -0.16px;
+    line-height: 22px;
 }
 .italic {
     font-style: italic;

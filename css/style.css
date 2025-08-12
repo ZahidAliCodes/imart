@@ -129,10 +129,10 @@ textarea {
 }
 .shopping-section {
     text-align: center;
-    padding: 58px 0;
+    padding: 36px 0;
 }
 .shopping-section2{
-    padding-bottom: 122px;
+    padding:56px 0 140px 0;
 }
 .shopping-section h1 {
     color: var(--color-text);
@@ -498,7 +498,7 @@ textarea {
     flex-wrap: wrap;
     gap: 48px;
     padding: 0 40px;
-    margin: 46px auto 0 auto;
+    margin: 56px auto 0 auto;
 }
 .faq-left {
     width: 751px;
@@ -621,14 +621,13 @@ textarea {
 .imart-promo-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 20px;
     padding: 160px 33px 33px 33px;
     justify-content: center;
 }
 .imart-card {
     flex: 0 0 446px;
     max-width: 446px;
-    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     overflow: hidden;
@@ -643,25 +642,29 @@ textarea {
 }
 .promo-card-one {
     background: var(--color-muted);
+    padding: 50px 30px;
 }
 .promo-card-two {
     border-radius: 10px;
     background: rgba(28, 70, 6, 0.9);
     color: var(--color-white);
     text-align: center;
+    padding: 25px 30px;
 }
 .promo-card-three {
     background: var(--color-secondary);
+    padding: 30px;
 }
 .promo-card-three h2 {
     color: var(--color-white) !important;
+    line-height: 48px;
+
 }
 .imart-card h2 {
     color: var(--color-text);
     font-size: 33px;
     text-align: left;
     font-weight: var(--font-bold);
-    line-height: 48px;
     letter-spacing: -0.33px;
 }
 .imart-card p {
@@ -681,7 +684,7 @@ textarea {
     border-radius: 5px;
     background: var(--bg-dark);
     color: var(--color-white);
-    padding: 18px;
+    padding: 8px;
     font-size: 18px;
     font-weight: var(--font-bold);
     text-decoration: none;
@@ -694,6 +697,7 @@ textarea {
     font-size: 24px;
     font-weight: var(--font-bold);
     line-height: 24px; 
+    padding: 20px 30px;
     border-radius: 100px;
     background: var(--color-white);
     margin: 58px auto 0 auto;
@@ -703,6 +707,7 @@ textarea {
     margin: 20px 0 0 0;
     color: #161b20;
     text-align: center;
+    padding: 20px 30px;
     font-size: 24px;
     font-weight: var(--font-bold);
     line-height: 24px; 

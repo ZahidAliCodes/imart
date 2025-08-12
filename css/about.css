@@ -47,7 +47,7 @@
     width: fit-content;
     background-color: var(--bg-dark-accent);
     border-radius: var(--radius-md);
-    font-weight: var(--font-normal);
+    font-weight: var(--font-bold);
     color: #f5f5f5;
     font-size: 16px;
     font-family: var(--font-tertiary);
@@ -63,7 +63,7 @@
 }
 .our-values h2 {
     font-size: 16px;
-    font-weight: var(--font-normal);
+    font-weight: var(--font-bold);
     color: var(--color-text);
     font-family: var(--font-tertiary);
     padding: 8px 0 0 0;
@@ -172,7 +172,7 @@
     margin: 24px 0 50px 0;
 }
 .mission-info p {
-    width: 62%;
+    width: 77%;
 }
 /* Responsive */
 @media (max-width: 1050px) {
@@ -229,7 +229,7 @@
         padding: 0 0 30px 0;
     }
     .our-values h2 {
-        font-size: 14px;
+        font-size: 13px;
     }
     .core-left p {
         font-size: 14px;
