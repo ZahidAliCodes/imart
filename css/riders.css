@@ -383,11 +383,16 @@
     .step-card img {
         width: 226px;
     }
+    .join-info a{
+        padding: 15px 40px;
+    }
+     .mart-is-rght h1,
+     .shopping-section h1{
+        font-size: 22px;
+     }
     .steps-cards-main h2,
     .ready-left h2, .ready-left h1,
-    .join-info h1, .req-main h1,
-    .shopping-section h1,
-    .mart-is-rght h1{
+    .join-info h1, .req-main h1{
         font-size: 18px;
         line-height: 33px;
     }
