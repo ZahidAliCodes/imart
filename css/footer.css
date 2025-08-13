@@ -134,7 +134,7 @@
 }
 .imart-footer-left a{
     width: 180px;
-    margin: 0;
+    margin: 0 0 0 -35px;
 }
   .imart-footer-right{
         gap: 25px;
