@@ -49,6 +49,9 @@
     box-sizing: border-box;
     font-family: var(--font-primary);
 }
+html{
+    scroll-behavior: smooth;
+}
 /* Global Styles */
 body {
     background-color: var(--color-white);
@@ -287,6 +290,7 @@ textarea {
     font-size: 25px;
     font-weight: var(--font-bold);
     margin: 110px auto 0 auto;
+    cursor: pointer;
     transition: background-color 0.3s ease;
 }
 .download-btn img{
@@ -830,6 +834,10 @@ display: flex;
 .stars i {
     margin: 0 2px; 
 }
+[id^="download-"] {
+    scroll-margin-top: 20px;
+}
+
 /* Responsive */
 @media (max-width: 1050px) {
     .container {

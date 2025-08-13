@@ -383,11 +383,12 @@
     .step-card img {
         width: 226px;
     }
+    .steps-cards-main h2,
     .ready-left h2, .ready-left h1,
     .join-info h1, .req-main h1,
     .shopping-section h1,
     .mart-is-rght h1{
-        font-size: 25px;
+        font-size: 18px;
         line-height: 33px;
     }
     .join-info a,
@@ -396,5 +397,14 @@
     .download-tab-main,
     .mart-is-rght p{
         font-size: 16px;
+        line-height: 35px;
+    }
+    
+}
+@media (max-width: 330px){
+    .join-info h1,
+    .ready-left h2, .ready-left h1{
+        font-size: 16px;
+        line-height: 33px;
     }
 }
