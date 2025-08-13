@@ -9,8 +9,9 @@
 }
 .ft-right{
     display: flex;
-        width: -webkit-fill-available;
+    width: -webkit-fill-available;
     justify-content: space-around;
+    align-items: end;
 }
 .imart-footer-center ul li:last-child{
     margin: 0;
@@ -19,7 +20,6 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
-    justify-content: end;
 }
 .imart-footer-left p {
     color: #eeeeee;
