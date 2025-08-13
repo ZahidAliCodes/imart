@@ -624,14 +624,12 @@ textarea {
 }
 .imart-promo-cards {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
     padding: 160px 33px 33px 33px;
     justify-content: center;
 }
 .imart-card {
-    flex: 0 0 446px;
-    max-width: 446px;
+    width: 30%;
     border-radius: 10px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     overflow: hidden;
@@ -649,6 +647,7 @@ textarea {
     padding: 50px 30px;
 }
 .promo-card-two {
+    width: 30%;
     border-radius: 10px;
     background: rgba(28, 70, 6, 0.9);
     color: var(--color-white);
@@ -839,6 +838,21 @@ display: flex;
 }
 
 /* Responsive */
+@media (max-width: 1130px) {
+
+    .imart-promo-cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+        .imart-card {
+        min-height: 580px;
+        width: 70%;
+    }
+    .faq-right{
+        margin: 0 auto;
+    }
+}
 @media (max-width: 1050px) {
     .container {
         padding: 0 20px;
@@ -967,15 +981,7 @@ display: flex;
         flex: 1 1 100%;
     }
 
-    .imart-promo-cards {
-        flex-direction: column;
-        align-items: center;
-        padding: 50px 0;
-    }
-    .imart-card {
-        min-height: 580px;
-        width: 70%;
-    }
+
     .yellow-bg {
         padding-top: 60px;
     }
