@@ -897,7 +897,7 @@ display: flex;
     }
 
     .steps-cards-main h2 {
-        min-height: 46px;
+        min-height: auto;
     }
     .steps-cards-main {
         gap: 0;
@@ -1098,6 +1098,9 @@ display: flex;
     .imart-card p{
         padding: 24px 0;
     }
+    .steps-cards-main p {
+    margin: 20px 0 0 0;
+}
 }
 
 @media (max-width: 380px) {
@@ -1115,7 +1118,6 @@ display: flex;
     .shopping-section h1 {
         font-size: 25px;
     }
-    .shopping-section .subtitle,
     .experience-main p {
         font-size: 13px;
     }
@@ -1132,8 +1134,12 @@ display: flex;
     .contact-box h3 {
         font-size: 18px;
     }
+    .partner-main, .steps-cards-main {
+        gap: 30px;
+    }
 }
 @media (max-width: 345px) {
+    
     .imart-btn-light,
     .partner-card a,
     .download-btn {

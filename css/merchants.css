@@ -173,4 +173,15 @@
     width: 19px;
     height: 14px 24px;
 }
+    .merc-left h1 {
+        font-size: 30px;
+    }
+    .shopping-section a, .merc-left a,
+        .merc-left p {
+        font-size: 16px;
+    }
+    .love-imart h1,
+.shopping-section h1 {
+    font-size: 25px;
+}
 }
