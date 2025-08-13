@@ -383,4 +383,18 @@
     .step-card img {
         width: 226px;
     }
+    .ready-left h2, .ready-left h1,
+    .join-info h1, .req-main h1,
+    .shopping-section h1,
+    .mart-is-rght h1{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .join-info a,
+    .benefits-list li, .requirement-list,
+    .shopping-section .subtitle,
+    .download-tab-main,
+    .mart-is-rght p{
+        font-size: 16px;
+    }
 }
