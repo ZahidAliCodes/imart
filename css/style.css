@@ -836,8 +836,12 @@ display: flex;
 [id^="download-"] {
     scroll-margin-top: 20px;
 }
-
 /* Responsive */
+@media (max-width: 1350px){
+    .promo-card-three h2{
+        font-size: 28px !important;
+    }
+}
 @media (max-width: 1130px) {
 
     .imart-promo-cards {

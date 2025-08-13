@@ -48,7 +48,6 @@
     border-radius: 15px;
     background-color: var(--color-white);
 }
-
 .imart-newsletter-box input {
     color: #253d4e;
     font-size: 20px;
@@ -59,7 +58,6 @@
     outline: none;
     border: none;
 }
-
 .imart-newsletter-box button {
     padding: 15px 20px;
     background: var(--color-secondary);
