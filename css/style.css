@@ -89,6 +89,7 @@ textarea {
     justify-content: center;
     padding: 170px 0 260px;
     overflow: hidden;
+    height: 620px;
 }
 .hero-video {
     position: absolute;
@@ -898,6 +899,9 @@ display: flex;
     }
     .corner-img {
         width: 150px;
+    }
+    .hero-video {
+        object-fit: inherit; 
     }
 }
 @media (max-width: 1020px) {

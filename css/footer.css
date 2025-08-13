@@ -82,6 +82,12 @@
     font-size: 20px;
     font-weight: 500;
     line-height: normal;
+    transition: background-color 0.3s ease;
+}
+
+
+.imart-footer-center a:hover{
+    color: #fe8d27;
 }
 .imart-footer-right p a,
 .imart-footer-right p {
@@ -93,7 +99,6 @@
     align-items: center;
     gap: 10px;
 }
-
 .imart-social-icons a {
     padding: 8px;
     border-radius: var(--radius-md);
@@ -101,6 +106,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 0.3s ease;
+}
+.imart-social-icons a:hover{
+    border:1px solid #e37416;
+}
+.imart-social-icons a:hover img {
+  filter: brightness(0) saturate(100%) invert(44%) sepia(86%) saturate(2207%) hue-rotate(11deg) brightness(94%) contrast(92%);
 }
 .imart-social-icons {
     display: flex;
