@@ -107,7 +107,7 @@ textarea {
     right: 0;
     bottom: 0;
     background-color: var(--color-text);
-    opacity: 0.4;
+    opacity: 0.3;
     z-index: 1;
 }
 .hero-content {
