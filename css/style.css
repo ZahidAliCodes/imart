@@ -999,7 +999,6 @@ display: flex;
     .yellow-bg {
         padding-top: 60px;
     }
-
     .orange-hero {
         padding: 40px 24px;
         margin-top: -100px;
@@ -1036,7 +1035,6 @@ display: flex;
         line-height: 44px;
     }
 }
-
 @media (max-width: 630px) {
     .talk-btn{
         margin: 0;
