@@ -1007,20 +1007,16 @@ textarea {
     .faq-question {
         font-size: 18px;
     }
-
     .card-box {
         padding: 20px;
     }
-
     .card-text {
         font-size: 14px;
     }
-
     .card-footer {
         flex-direction: row;
         gap: 10px;
     }
-
     .card-name {
         font-size: 14px;
     }
