@@ -909,10 +909,17 @@ display: flex;
     }
 }
 @media (max-width: 1020px) {
+    .download-btn{
+        font-size: 20px;
+    }
+    .notes-main{
+        font-size: 15px;
+    }
     .faq-container {
         padding: 0;
         gap: 40px;
     }
+    
     .steps-cards-main {
         flex-direction: column;
     }
@@ -932,9 +939,6 @@ display: flex;
 
     .steps-cards-main h2 {
         min-height: auto;
-    }
-    .steps-cards-main {
-        gap: 0;
     }
     .steps-cards-main {
         justify-content: space-between;
@@ -1049,7 +1053,10 @@ display: flex;
     .partner-main,
     .steps-cards-main {
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
+    }
+    .partner-card a{
+        margin: 18px auto 0 auto;
     }
     .cards-wrapper {
         grid-template-columns: 1fr;
