@@ -22,7 +22,6 @@
 }
 .merc-left p {
     color: var(--color-accent);
-    text-shadow: var(--shadow-light);
     font-size: 20px;
     font-weight: var(--font-normal);
     letter-spacing: -0.2px;
