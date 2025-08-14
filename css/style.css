@@ -414,7 +414,6 @@ textarea {
     line-height: 25px; 
     letter-spacing: -0.33px;
 }
-
 .cards-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -549,7 +548,6 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .faq-answer {
     display: none;
@@ -582,7 +580,6 @@ textarea {
     justify-content: center;
     align-items: center;
     gap: 26px;
-
 }
 .icon-box {
     width: 67px;
