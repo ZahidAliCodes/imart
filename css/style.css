@@ -1034,8 +1034,14 @@ display: flex;
     .faq-heading {
         line-height: 44px;
     }
+    .hero-section{
+        height: 400px;
+    }
 }
 @media (max-width: 630px) {
+    .hero-section{
+        height: auto;
+    }
     .talk-btn{
         margin: 0;
     }
