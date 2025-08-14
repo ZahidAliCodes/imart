@@ -109,12 +109,13 @@ textarea {
     background-color: var(--color-text);
     opacity: 0.3;
     z-index: 1;
+    pointer-events: none;
 }
 .hero-content {
-    position: relative;
-    z-index: 10;
-    text-align: center;
-    color: var(--color-white);
+   position: absolute;
+    bottom: 174px;
+    left: 32%;
+    cursor: pointer;
 }
 .hero-content h1 {
     font-family: var(--font-secondary);
@@ -130,6 +131,28 @@ textarea {
     color: var(--color-primary);
     line-height: 23px;
     padding: 17px 0 0 0;
+}
+.download-btn-hero {
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--bg-dark); 
+    background-color: var(--color-white); 
+    border: none;
+    box-shadow: 5px 5px 0px var(--color-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.download-btn-hero:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 0px #e37416;
+}
+
+.download-btn-hero:active {
+    transform: translate(5px, 5px);
+    box-shadow: none;
 }
 .shopping-section {
     text-align: center;
@@ -1028,6 +1051,13 @@ display: flex;
     .faq-heading {
         line-height: 44px;
     }
+    .hero-content{
+        left: 29%;
+        bottom: 185px;
+    }
+    .download-btn-hero{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 630px) {
@@ -1122,6 +1152,13 @@ display: flex;
     .steps-cards-main p {
     margin: 20px 0 0 0;
 }
+    .hero-content{
+        left: 24%;
+        bottom: 185px;
+    }
+    .download-btn-hero{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 380px) {
