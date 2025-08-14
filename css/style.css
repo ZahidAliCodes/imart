@@ -823,7 +823,7 @@ textarea {
     gap: 2px;
 }
 .stars {
-display: flex;
+    display: flex;
     position: relative;
     font-size: 16px;
     color: #dcd8d8;
@@ -845,7 +845,6 @@ display: flex;
     }
 }
 @media (max-width: 1130px) {
-
     .imart-promo-cards {
         flex-direction: column;
         align-items: center;
