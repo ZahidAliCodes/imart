@@ -133,7 +133,7 @@ textarea {
 
 .shopping-section {
     text-align: center;
-    padding: 36px 0 140px 0;
+    padding: 36px 0 49px 0;
 }
 .shopping-section2{
     padding:56px 0 140px 0;
@@ -884,7 +884,7 @@ textarea {
         gap: 20px;
     }
     .experience-main {
-        padding: 50px 0;
+        padding: 50px 0 100px 0;
     }
     .faq-left {
         width: 100%;
@@ -1028,9 +1028,6 @@ textarea {
         height: 400px;
         padding: 0;
     }
-    .shopping-section{
-        padding-bottom: 100px;
-    }
 }
 @media (max-width: 630px) {
     .love-imart h1 {
@@ -1077,7 +1074,7 @@ textarea {
     .shopping-section .subtitle,
     .experience-main p {
         width: 100%;
-        font-size: 14px;
+        font-size: 16px;
     }
     .step-card img {
         height: auto;
